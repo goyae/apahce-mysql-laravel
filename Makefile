@@ -1,6 +1,6 @@
 # createproject:
 #   docker-compose exec web composer create-project "laravel/laravel=~8.0" --prefer-dist .
-#   docker-compose exec web chown www-data:www-data -R .
+#   docker-compose exec web chown www-data:www-data -R storage
 
 ps:
     docker-compose ps
