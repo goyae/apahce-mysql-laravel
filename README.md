@@ -38,9 +38,36 @@ https://hub.docker.com/editions/community/docker-ce-desktop-mac/
 And More:
 https://docs.docker.com/engine/install/
 
+### Install Python3
+https://www.python.org/downloads/
+
 ## URLs
-###Laravel app
+### Laravel app
 http://localhost:8380
 
-### phpmyadmin
+### phpMyAdmin
 http://localhost:8880
+
+## Command
+
+### Build local env
+
+```
+make buildup
+```
+
+### Stop local env
+
+```
+make stop
+or 
+make d
+```
+
+### Start local env
+
+```
+make u
+or
+make start
+```
